@@ -1,0 +1,17 @@
+{
+  "users": {
+    "name": "string",
+    "email": "string",
+    "password": "hashed string",
+    "role": "enum (admin, vendor, staff, buyer)"
+  },
+  "products": {
+    "name": "string",
+    "description": "string",
+    "category": "string",
+    "priceOld": "float",
+    "priceNew": "float",
+    "expiryDate": "date",
+    "vendor": "ObjectId (ref: users)"
+  }
+}
